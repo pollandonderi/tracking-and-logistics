@@ -1,0 +1,33 @@
+.image .home {
+    background: url(../images/index.jpg) center no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    height: 100vh;
+
+
+}
+
+/* .image--img{} */
+.image--overlay {
+    position: absolute;
+    width: 100%;
+    top: 8vh;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image--overlay--title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image--overlay--description {
+    font-size: 1.25em;
+}

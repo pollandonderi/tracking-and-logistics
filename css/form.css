@@ -1,0 +1,113 @@
+
+.form-body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form{
+    width: 50%;
+    /* background-color: blue; */
+    position: relative;
+}
+.form-input{
+    width: 100%;
+    height: 100%;
+    color: #004FF9;
+    padding-top: 20px;
+    border: none;
+}
+.form-body input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 1rem;
+}
+.form-body input:focus{
+  
+  border: none;
+}
+.form-label{
+    position: absolute;
+}
+.client {
+    width: 100%;
+    height: 100%;
+    background: #0004ff;  
+    background: -webkit-linear-gradient(to right, #353434, #f6f5f8); 
+    background: linear-gradient(to right, #353434, #f4f3f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.do{
+    color: #f4f3f5;
+    width: 100%;
+    height: 100%;
+    background: #0004ff;  
+    background: -webkit-linear-gradient(to right, #353434, #f6f5f8); 
+    background: linear-gradient(to right, #353434, #858585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.do .card{
+    background:none;
+    border: none;
+}
+
+
+.carousel-icon i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+  color: #fff;
+  height: auto;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+.need-help{
+    display: flex;
+    flex-direction: column;
+}
+.help{
+    padding-bottom: 20px;
+}
+.text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #212529;
+  }
+  

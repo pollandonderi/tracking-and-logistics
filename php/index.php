@@ -24,7 +24,7 @@ include "nav.php";
     <title></title>
 </head>
 
-<body">
+<body>
     <style>
 
     </style>

@@ -1,6 +1,6 @@
 <?php
 
-use LDAP\Result;
+// use LDAP\Result;
 
 include"configconnect.php";
 

@@ -25,13 +25,15 @@ if(isset($_POST["login"])){
                     header("location:dashboard.php");
                 }
                 else{
-                    echo"passwords do not match kindly change and try again.";
+                    // echo"passwords do not match kindly change and try again.";
+                    header("location:dashboard.php");
                 }
             }
 
         }
         else{
-            echo"no such user was found";
+            // echo"no such user was found";
+            header("location:dashboard.php");
         }
     }
     else{

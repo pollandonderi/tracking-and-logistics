@@ -25,7 +25,7 @@
 .form_container{
     margin:6px;
     padding:6px;
-    border: 1px solid;
+    border: 0px solid;
     margin-top: 20vh;
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 3px 15px 10px rgba(0,0,0,0.75);

@@ -10,7 +10,7 @@ if(isset($_POST["register"])){
     $password = $_POST["password"];
     $confirmpassword = $_POST["confirmpassword"];
 
-    if(strlen($password<6)){
+    if(strlen($password)<6){
         $passerror = "your password must be more than six characters";
         echo "$passerror";
 
@@ -18,7 +18,7 @@ if(isset($_POST["register"])){
     else{
         $storepass = password_hash($password, PASSWORD_DEFAULT);
     }
-    if($password!=$confirmpassword){
+    if($password != $confirmpassword){
         $confirmpasserror = "passwords do not match";
         echo"$confirmpasserror";
     }

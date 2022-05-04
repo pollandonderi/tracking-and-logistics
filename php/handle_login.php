@@ -15,8 +15,8 @@ if(isset($_POST["login"])){
     if($result){
         $data = mysqli_num_rows($result);
 
-        if($data == 1){
-            while($rows=mysqli_fetch_array($result)){
+        if($data==1){
+            while($row =mysqli_fetch_array($result)){
                 $id = $row["id"];
                 $email = $row["emailadd"];
                 $password = $row["password"];
@@ -25,8 +25,8 @@ if(isset($_POST["login"])){
                     header("location:dashboard.php");
                 }
                 else{
-                    // echo"passwords do not match kindly change and try again.";
-                    header("location:dashboard.php");
+                    echo"passwords do not match kindly change and try again.";
+                    // header("location:dashboard.php");
                 }
             }
 

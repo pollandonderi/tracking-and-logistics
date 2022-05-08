@@ -16,14 +16,15 @@ if(isset($_POST["register"])){
 
     }
     else{
-        $storepass = password_hash($password, PASSWORD_DEFAULT);
+        $storepass = md5($password);
+        // $storepass = password_hash($password , PASSWORD_DEFAULT);
     }
     if($password != $confirmpassword){
         $confirmpasserror = "passwords do not match";
         echo"$confirmpasserror";
     }
     if(empty($passerror) and empty($confirmpasserror)){
-        $sql = "INSERT INTO `users`(`yourname`, `phonenumber`, `company`, `emailadd`, `password`) 
+        $sql = "INSERT INTO `users`(`yourname`, `phonenumber`, `company`, `emailadd`, `password` ) 
         VALUES ('$yourname','$phonenumber','$company','$emailadd','$storepass')";
 
         $result = mysqli_query($link , $sql);
@@ -37,9 +38,4 @@ if(isset($_POST["register"])){
         }
     }
 }
-
-
-
-
-
 ?>

@@ -1,6 +1,7 @@
 <?php
 
 // include "nav.php";
+include " handle_glogin.php";
 
 
 
@@ -45,7 +46,7 @@
                 <i class="fa fa-facebook-f bg-white">facebook</i>
               </button>
 
-              <button type="button" class="btn btn-link btn-floating mx-1">
+              <button type="button" value="submit"  href="handle_glogin.php" class="btn btn-link btn-floating mx-1">
                 <i class="fa fa-google bg-white">google</i>
               </button>
 

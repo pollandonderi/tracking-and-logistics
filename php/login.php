@@ -1,7 +1,7 @@
 <?php
 
 // include "nav.php";
-include " handle_glogin.php";
+include "handle_glogin.php";
 
 
 
@@ -46,7 +46,7 @@ include " handle_glogin.php";
                 <i class="fa fa-facebook-f bg-white">facebook</i>
               </button>
 
-              <button type="button" value="submit"  href="handle_glogin.php" class="btn btn-link btn-floating mx-1">
+              <button onclick="window.location='<?php echo $login_url    ?>'" type="button" value="submit"   class="btn btn-link btn-floating mx-1">
                 <i class="fa fa-google bg-white">google</i>
               </button>
 

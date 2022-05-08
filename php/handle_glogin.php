@@ -13,8 +13,17 @@ $gclient->addScope("https://www.googleapis.com/auth/plus.login https://www.googl
 $login_url = $gclient -> createAuthUrl();
 
 
+if (isset($_GET["code"])){
 
+    $gtoken = $gclient ->fetchAccessTokenWithAuthCode($_GET["code"]);
 
+    if(!isset($token["error"])){
+
+        $gclient -> setAccessToken($token["access_token"]);
+
+        $_SESSION["access_token"] = $token["access_token"];
+    }
+}
 
 
 

@@ -17,11 +17,41 @@ if (isset($_GET["code"])){
 
     $gtoken = $gclient ->fetchAccessTokenWithAuthCode($_GET["code"]);
 
-    if(!isset($token["error"])){
+    if(!isset($gtoken["error"])){
 
-        $gclient -> setAccessToken($token["access_token"]);
+        $gclient -> setAccessToken($gtoken["access_token"]);
 
-        $_SESSION["access_token"] = $token["access_token"];
+        $_SESSION["access_token"] = $gtoken["access_token"];
+
+        $gService = new  Google\Service\Oauth2($gclient);
+
+        $data = $gService ->userinfo -> get();
+
+        if(!empty($data["given_name"])){
+            $firstname = $data["given_name"];
+            $_SESSION["firstname"] = $firstname;
+            
+        }
+        if(!empty($data["family_name"])){
+            $secondname = $data["given_name"];
+            $_SESSION["secondname"] = $secondname;
+
+        }
+        if(!empty($data["email"])){
+            $email = $data["email"];
+            $_SESSION["email"] = $email;
+
+        }
+        if(!empty($data["gender"])){
+            $gender = $data["gender"];
+            $_SESSION["gender"] = $gender;
+
+        }
+        if(!empty($data["picture"])){
+            $picture = $data["picture"];
+            $_SESSION["picture"] = $picture;
+
+        }
     }
 }
 

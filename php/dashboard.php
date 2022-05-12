@@ -1,6 +1,11 @@
 <?php
 session_start();
  include "handle_glogin.php";
+ include "handle_login.php";
+
+ if(!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"]!== true){
+     header("location:index.php");
+ }
  include "header.php";
 
 
@@ -23,6 +28,7 @@ session_start();
     <!-- <title></title> -->
 </head>
 <body>
+    <!-- <h1>fffffffff</h1> -->
    
 
 

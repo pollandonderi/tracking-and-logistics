@@ -36,6 +36,7 @@ if(isset($_POST["login"])){
                     $_SESSION["loggedin"] = true;
                     $_SESSION["id"] = $id;
                     $_SESSION["username"] = $yourname;
+                    $_SESSION["loggedin"] = true;
 
                     header("location:dashboard.php");
                 }

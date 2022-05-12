@@ -52,6 +52,8 @@ if (isset($_GET["code"])){
             $_SESSION["picture"] = $picture;
 
         }
+
+        $_SESSION["loggedin"] = true;
     }
 }
 

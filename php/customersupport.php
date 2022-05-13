@@ -30,9 +30,9 @@ include "header2.php";
     <div class="col-sm-4 col-lg-4  d-flex justify-content-center">
     <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_wbszjekz.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     </div>
-    <div class="col-sm-4 col-lg-4 d-flex  flex-column ">
+    <div class="col-sm-4 col-lg-4 d-flex  flex-column justify-content-center ">
         <div class="row">
-        <div class="col-6"><h5>Reach us on:</h5>
+        <div class="col-6 "><h5>Reach us on:</h5>
         <p>+254 795 836 437</p>
         <p>+254 795 836 437</p>
         <p>+254 795 836 437</p>
@@ -45,7 +45,7 @@ include "header2.php";
         </div>
           
     </div>
-    <div class="col-sm-4 col-lg-4  d-flex justify-content-center">
+    <div class="col-sm-4 col-lg-4  d-flex align-items-center">
     <div class="card" style="width: 21rem;">
   <div class="card-body bg-dark text-center">
     <h5 class="card-title text-white">Connect with us in</h5>

@@ -62,7 +62,7 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="#">
+    <a class="nav-link " href="customersupport.php">
     <i class="material-icons me-2" style="font-size:24px">phone_in_talk</i>
     <span>Customer Support</span>
     </a><hr>
@@ -101,20 +101,21 @@
         <!-- image here  -->
         <ul class="nav justify-content-end">
         <li class="nav-item">
-    <a class="nav-link" href="#">
-      <span><?php echo $_SESSION["firstname"];  ?></span>
-    </a>
-  </li>
+         <a class="nav-link" href="#">
+       <span><?php echo $_SESSION["firstname"];  ?></span>
+        </a>
+         </li>
         <li class="nav-item">
-    <a class="nav-link" href="#">
-      <img src=" <?php echo "<img src='".$_SESSION['picture']."'>";  ?>" alt="Loading" height="40" width="40" class="rounded circle">
-    </a>
-  </li>
+       <a class="nav-link" href="#">
+       <img src=" <?php echo "<img src='".$_SESSION['picture']."'>";  ?>" alt="Loading" height="40" width="40" class="rounded circle">
+       </a>
+       </li>
         </ul>
       </div>
 
     </div>
   </div>
+  <div
 
     </div>
     

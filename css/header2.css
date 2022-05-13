@@ -1,0 +1,9 @@
+*{
+    font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.header2{
+    text-decoration: none;
+    border-radius: 8px;
+    /* background-color: aqua; */
+}

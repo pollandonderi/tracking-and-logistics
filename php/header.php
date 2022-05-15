@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/header2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -22,13 +22,13 @@
 </head>
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3 col-lg-3 bg-dark">
+    <div class="row ">
+      <div class="col-sm-3 col-lg-3 dark">
       <ul class="nav flex-column">
      <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="#">
      <i class="fa fa-tachometer fa-2x" style="font-size:24px;"></i>
-     <span><h4>Logitrack Dashboard</h4></span>
+     <span><h4 >Logitrack Dashboard</h4></span>
      </a><hr>
      </li>
      <li class="nav-item">
@@ -76,7 +76,8 @@
   <li class="nav-item p-2">
     <a class="nav-link " href="#">
     <i class="fa fa-gears me-2" style="font-size:24px;"></i>
-    <span>Settings</span>
+    <span>Darkmode</span>
+    <img src="../images/darktheme.png"  alt="loading" id="icon">
     </a>
   </li>
   <li class="nav-item">
@@ -121,7 +122,18 @@
     
   </div>
   
-  
+ <script>
+   var icon = document.getElementById("icon");
+   icon.onclick = function(){
+     document.body.classList.toggle("dark-theme");
+     if(document.body.classList.contains("dark-theme")){
+       icon.src="../images/lighttheme.png";
+     }
+     else{
+      icon.src="../images/darktheme.png";
+     }
+   }
+ </script> 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

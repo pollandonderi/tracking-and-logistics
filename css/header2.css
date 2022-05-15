@@ -1,9 +1,30 @@
 *{
     font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif;
+
+}
+:root{
+   
+    --primary-color:#f8f9fa;
+    --secondary-color:#343a40;
+
+}
+.dark-theme{
+    --primary-color:#343a40;
+    --secondary-color:#007bff;
 }
 .header2{
     text-decoration: none;
     border-radius: 8px;
-    /* background-color: aqua; */
+}
+.dark{
+    background-color: var(--primary-color);
+}
+.navlink{
+    text-decoration-color: var(--secondary-color);
+}
+#icon{
+    width:20px;
+     height:20px;
+     cursor:pointer;
 }

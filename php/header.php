@@ -32,7 +32,7 @@
      </a><hr>
      </li>
      <li class="nav-item">
-     <a class="nav-link" href="#">
+     <a class="nav-link" href="order.php">
      <i class="fa fa-shopping-cart me-2" style="font-size:24px;"></i>
      <span>Order Placement</span>
      </a>

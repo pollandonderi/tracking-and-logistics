@@ -353,11 +353,11 @@ include "nav.php";
                     <h5 class="text-white mb-3">Quick links</h5>
                     <ul class="list-unstyled text-muted">
                         <li><a href="login.php">Register For Free</a></li>
-                        <li><a href="#">Ship Your Product</a></li>
-                        <li><a href="#">Track Product</a></li>
+                        <li><a href="login.php">Ship Your Product</a></li>
+                        <li><a href="login.php">Track Product</a></li>
                         <li><a href="contactus.php">Customer Support</a></li>
-                        <li><a href="#">Connect with producers</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="lgin.php">Connect with producers</a></li>
+                        <li><a href="frequent.php">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6">

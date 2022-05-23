@@ -7,6 +7,8 @@ font-family: 'Poppins', sans-serif;
    
     --primary-color:#f8f9fa;
     --secondary-color:#343a40;
+    --third-color: #ffc107;
+    --fourth-color:#28a745;
 
 }
 .dark-theme{
@@ -28,3 +30,19 @@ font-family: 'Poppins', sans-serif;
      height:20px;
      cursor:pointer;
 }
+.yellow1{
+    border-left: 3px solid var(--third-color);
+}
+.blue1{
+    border-left:3px solid var(--secondary-color) ;
+}
+.green1{
+    border-left: 3px solid var(--fourth-color);
+}
+.link11{
+    text-decoration: none;
+    color: var(--secondary-color);
+ }
+.link22{ 
+ color:var(--secondary-color); 
+ }

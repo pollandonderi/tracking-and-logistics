@@ -56,7 +56,7 @@
     </a><hr>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="#">
+    <a class="nav-link " href="connect.php">
     <i class="fa fa-group me-2" style="font-size:24px;"></i>
     <span>connect</span>
     </a>
@@ -68,7 +68,7 @@
     </a><hr>
   </li>
   <li class="nav-item p-2">
-    <a class="nav-link " href="#">
+    <a class="nav-link " href="frequent.php">
     <i class="fa fa-question me-2" style="font-size:24px;"></i>
     <span>FAQs</span>
     </a>
@@ -94,7 +94,7 @@
       <div class="col-sm-7 col-lg-7">
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-dark" type="submit">Search</button>
+        <button class="btn btn-outline-dark" type="submit"><i class="fa fa-search" style="font-size:24px"></i></button>
       </form>
         
       </div>
@@ -113,6 +113,34 @@
        </li>
         </ul>
       </div>
+
+    </div>
+    <div class="row">
+      
+    <div class="col-sm-4 col-lg-4 ">
+      <div class="card ">
+      <div class="card-title blue1 text-center link11">TO DO LIST</div>
+       <div class="card-body blue1">
+         <a href="#"> <p class="text-center ">write it down to remember</p></a>
+       </div>
+      </div>
+     </div>
+    <div class="col-sm-4 col-lg-4">
+      <div class="card">
+      <div class="card-title yellow1 text-center link22">BECOME A SELLER</div>
+       <div class="card-body yellow1">
+       <a href="#"> <p class="text-center"> Sell on our platform </p></a>
+       </div>
+      </div>
+     </div>
+    <div class="col-sm-4 col-lg-4 ">
+      <div class="card">
+      <div class="card-title green1 text-center">VIEW TO DO LIST</div>
+       <div class="card-body green1">
+       <a href="#"> <p class="text-center"> view complete and uncomplete tasks</p></a>
+       </div>
+      </div>
+     </div>
 
     </div>
   </div>

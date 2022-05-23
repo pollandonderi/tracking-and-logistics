@@ -3,3 +3,18 @@
     font-weight: 400;
     
 }
+:root{
+   
+    --primary-color:#f8f9fa;
+    --secondary-color:#343a40;
+    --third-color: #ffc107;
+    --fourth-color:#28a745;
+
+}
+.heading{
+    color: var(--secondary-color);
+}
+.margin{
+    padding: 25px ;
+    
+}

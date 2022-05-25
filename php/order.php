@@ -79,14 +79,71 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                 </div>
             </div>
             <div class="row bg-dark d-flex justify-content-end">
-                <div class="col-6 bg-dark">
-                    <a href="#" class=" d-flex justify-content-end text-white"> SEE ALL<i class="fa fa-share" style="font-size:24px"></i></a>
+                <div class="col-6 bg-dark ">
+                    <a href="#" class=" d-flex justify-content-end text-white p-2"> SEE ALL<i class="fa fa-share" style="font-size:24px"></i></a>
                 </div>
 
             </div>
         </section>
-            <div class="text-center">
-                <h3>Electronics</h3>
+        <hr>
+            <div class="text-center p-3">
+                <h3>Health and beauty</h3>
+            </div>
+        </div>
+
+        <section class="container ">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 ">
+                    <div class="card">
+                        <img src="../images/brush.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Brush</h5>
+                            <p class="card-text"> Foundation brushes</p>
+                            <a href="#" class="btn btn-primary">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 ">
+                    <div class="card">
+                        <img src="../images/lipstick.jpg" height="170px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lipstick</h5>
+                            <p class="card-text">All colour lipstick-top brand</p>
+                            <a href="#" class="btn btn-primary">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 ">
+                    <div class="card">
+                        <img src="../images/varnish.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nail varnish</h5>
+                            <p class="card-text">different polish to suit you</p>
+                            <a href="#" class="btn btn-primary">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 ">
+                    <div class="card">
+                        <img src="../images/foundation.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Face foundation</h5>
+                            <p class="card-text">Foundation for all your needs</p>
+                            <a href="#" class="btn btn-primary">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-dark d-flex justify-content-end">
+                <div class="col-6 bg-dark">
+                    <a href="#" class=" d-flex justify-content-end text-white p-2"> SEE ALL<i class="fa fa-share" style="font-size:24px"></i></a>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+            <div class="text-center p-3">
+                <h3>Fashion</h3>
             </div>
         </div>
 
@@ -135,62 +192,7 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
             </div>
             <div class="row bg-dark d-flex justify-content-end">
                 <div class="col-6 bg-dark">
-                    <a href="#" class=" d-flex justify-content-end text-white"> SEE ALL<i class="fa fa-share" style="font-size:24px"></i></a>
-                </div>
-
-            </div>
-        </section>
-            <div class="text-center">
-                <h3>Electronics</h3>
-            </div>
-        </div>
-
-        <section class="container ">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
-                        <img src="../images/ketttle.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Electric kettle</h5>
-                            <p class="card-text"> Bruhm electric kettle</p>
-                            <a href="#" class="btn btn-primary">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
-                        <img src="../images/tv.jpg" height="170px" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Tvs</h5>
-                            <p class="card-text">samsung 32" inch</p>
-                            <a href="#" class="btn btn-primary">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
-                        <img src="../images/theatre.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Home theatre</h5>
-                            <p class="card-text">synix home theatre 500w</p>
-                            <a href="#" class="btn btn-primary">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
-                        <img src="../images/extension.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">electric extension</h5>
-                            <p class="card-text">long cable 500m extensions</p>
-                            <a href="#" class="btn btn-primary">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row bg-dark d-flex justify-content-end">
-                <div class="col-6 bg-dark">
-                    <a href="#" class=" d-flex justify-content-end text-white"> SEE ALL<i class="fa fa-share" style="font-size:24px"></i></a>
+                    <a href="#" class=" d-flex justify-content-end text-white p-2"> SEE ALL<i class="fa fa-share" style="font-size:24px"></i></a>
                 </div>
 
             </div>

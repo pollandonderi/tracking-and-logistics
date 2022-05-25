@@ -90,7 +90,7 @@
       </div>
 
       <div class="col-sm-9 col-lg-9 bg-light">
-    <div class="row">
+    <div class="row p-1">
       <div class="col-sm-7 col-lg-7">
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -115,7 +115,7 @@
       </div>
 
     </div>
-    <div class="row">
+    <div class="row p-4">
       
     <div class="col-sm-4 col-lg-4 ">
       <div class="card ">

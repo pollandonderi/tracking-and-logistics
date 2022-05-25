@@ -278,25 +278,25 @@ include "nav.php";
                 <p>Interested in the services we offer? get in touch.</p>
             </div>
             <div class="col-lg-6 col-sm-12 form container">
-                <form class="form-body">
-                    <input type="text" name="name" autocomplete="off" required>
+                <form class="form-body" action="handlediscovery.php" method="post">
+                    <input type="text" name="your_name" autocomplete="off" required>
                     <label for="name" class="label-name">
                         <span class="content-name text-light">Your Name</span>
                     </label>
-                    <input type="text" name="name" autocomplete="off" required>
+                    <input type="text" name="phone_number" autocomplete="off" required>
                     <label for="name" class="label-name">
                         <span class="content-name text-light">Phone Number</span>
                     </label>
-                    <input type="text" name="name" autocomplete="off" required>
+                    <input type="text" name="your_email" autocomplete="off" required>
                     <label for="name" class="label-name">
                         <span class="content-name text-light">Your Email Adress</span>
                     </label>
-                    <input type="text" name="name" autocomplete="off" required>
+                    <input type="text" name="company_" autocomplete="off" required>
                     <label for="name" class="label-name">
                         <span class="content-name text-light">Company / Individual</span>
                     </label>
                     <div class="text-center text-light mt-3 mb-5">
-                        <button href="#" class="btn btn-light">Book Now</button>
+                        <button type="submit" name="submitmessage" value="submit" class="btn btn-light">Book Now</button>
                     </div>
                 </form>
             </div>

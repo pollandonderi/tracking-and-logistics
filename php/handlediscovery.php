@@ -15,8 +15,6 @@ if(isset($_POST["submitmessage"])){
         echo 'alert("Message has been received succesfully look out for an email from our team within the next 2 minutes!")';
         echo '</script>';
 
-        // header("location:index.php");
-
     }
     else{
         echo"error connecting to database $sql".mysqli_error($link);

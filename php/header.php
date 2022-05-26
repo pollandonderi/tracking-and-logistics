@@ -121,7 +121,7 @@
       <div class="card ">
       <div class="card-title blue1 text-center link11">TO DO LIST</div>
        <div class="card-body blue1">
-         <a href="#"> <p class="text-center ">write it down to remember</p></a>
+         <a href="todolist.php"> <p class="text-center ">write it down to remember</p></a>
        </div>
       </div>
      </div>
@@ -137,7 +137,8 @@
       <div class="card">
       <div class="card-title green1 text-center">VIEW TO DO LIST</div>
        <div class="card-body green1">
-       <a href="#"> <p class="text-center"> view complete and uncomplete tasks</p></a>
+       <a href="#"> <p class="text-center">view uncomplete tasks</p></a>
+       <a href="#"> <p class="text-center">view complete tasks</p></a>
        </div>
       </div>
      </div>

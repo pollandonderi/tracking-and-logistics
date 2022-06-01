@@ -5,15 +5,17 @@ font-family: 'Poppins', sans-serif;
 }
 :root{
    
-    --primary-color:#f8f9fa;
-    --secondary-color:#343a40;
+    --primary-color:#343a40;
+    --secondary-color:#007bff;
     --third-color: #ffc107;
     --fourth-color:#28a745;
 
 }
 .dark-theme{
-    --primary-color:#343a40;
-    --secondary-color:#007bff;
+    /* --primary-color:#f8f9fa;
+    --secondary-color:#343a40; */
+     --primary-color:#343a40;
+    --secondary-color:#007bff; 
 }
 .header2{
     text-decoration: none;

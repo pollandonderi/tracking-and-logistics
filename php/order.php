@@ -69,6 +69,9 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
             </div>
         </nav>
         <div class="row">
+            <div id="message"></div>
+        </div>
+        <div class="row">
             <?php
             include "configconnect2.php";
             $stmt = $conn -> prepare("SELECT * FROM `product`");
@@ -108,10 +111,29 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script type="type/javascrpt">
-        $(document).ready(function(){
-            
-        })
+    <script type="text/Javascript">
+        $(document).ready(function()){
+            $('.additemBtn').click(function(e)){
+                e.preventDefault();
+                var $form = $(this).closest(".form-submit");
+                var pid = $form.find(".pid").val();
+                var pname = $form.find(".pname").val();
+                var pprice = $form.find(".pprice").val();
+                var pimage = $form.find(".pimage").val();
+                var pcode = $form.find(".pcode").val();
+                $.ajax({
+                    url:'actionorder.php',
+                    method:'post',
+                    data:{pid:pid, pname:pname, pprice:pprice, pimage:pimage, pcode:pcode,}
+
+                    success: function response{
+                        $("#message").html(response);
+
+                    }
+
+                });
+            }
+        });
         
     </script>
 </body>

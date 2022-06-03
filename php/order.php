@@ -37,6 +37,7 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
 </head>
 
 <body>
+   
     <div class="container-fluid">
 
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -74,10 +75,10 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
         <div class="row">
             <?php
             include "configconnect2.php";
-            $stmt = $conn -> prepare("SELECT * FROM `product`");
-            $stmt -> execute();
-            $result = $stmt -> get_result();
-            while($row= $result -> fetch_assoc()):
+            $stmt=$conn->prepare("SELECT * FROM `product`");
+            $stmt->execute();
+            $result=$stmt->get_result();
+            while($row=$result->fetch_assoc()):
 
             ?>
             <div class="col-sm-6 col-md-4 col-lg-3 ">
@@ -88,14 +89,14 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
                             <h4 class="text-center card-title"><?= $row['product_name']?></h4>
                             <h5 class="text-center">price: <?=number_format($row['product_price'],2)?> ksh/-</h5>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer p-1">
                             <form action="" class="form-submit">
-                                <input type="hidden" id="pid" value="<?=$row['id'] ?>">
-                                <input type="hidden" id="pname" value="<?=$row['product_name'] ?>">
-                                <input type="hidden" id="pprice" value="<?=$row['product_price'] ?>">
-                                <input type="hidden" id="pimage" value="<?=$row['product_image'] ?>">
-                                <input type="hidden" id="pcode" value="<?=$row['product_code'] ?>">
-                                <button class="btn btn-dark btn-block additemBtn">add to cart <i class="fas fa-shopping-cart"></i></button>
+                                <input type="hidden" class="pid" value="<?= $row['id'] ?>">
+                                <input type="hidden" class="pname" value="<?= $row['product_name'] ?>">
+                                <input type="hidden" class="pprice" value="<?= $row['product_price'] ?>">
+                                <input type="hidden" class="pimage" value="<?= $row['product_image'] ?>">
+                                <input type="hidden" class="pcode" value="<?= $row['product_code'] ?>">
+                                <button class="btn btn-info btn-dark btn-block addItemBtn">add to cart <i class="fas fa-shopping-cart"></i></button>
                             </form>
                            
                         </div>
@@ -108,12 +109,13 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
         </div>
 
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script type="text/Javascript">
-        $(document).ready(function()){
-            $('.additemBtn').click(function(e)){
+        $(document).ready(function(){
+            $(".addItemBtn").click(function(e){
                 e.preventDefault();
                 var $form = $(this).closest(".form-submit");
                 var pid = $form.find(".pid").val();
@@ -124,7 +126,7 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
                 $.ajax({
                     url:'actionorder.php',
                     method:'post',
-                    data:{pid:pid, pname:pname, pprice:pprice, pimage:pimage, pcode:pcode,}
+                    data: {pid:pid, pname:pname, pprice:pprice, pimage:pimage, pcode:pcode},
 
                     success: function response{
                         $("#message").html(response);
@@ -132,7 +134,7 @@ if( ! isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !==true){
                     }
 
                 });
-            }
+            });
         });
         
     </script>

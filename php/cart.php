@@ -7,7 +7,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="author" content="Sahil Kumar">
+  <meta name="author" content="Polland">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Cart</title>
@@ -90,13 +90,13 @@
                 <td><img src="<?= $row['product_image'] ?>" width="50"></td>
                 <td><?= $row['product_name'] ?></td>
                 <td>
-                  <i class="fas fa-rupee-sign"></i>&nbsp;&nbsp;<?= number_format($row['product_price'],2); ?>
+                  <i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;<?= number_format($row['product_price'],2); ?>
                 </td>
                 <input type="hidden" class="pprice" value="<?= $row['product_price'] ?>">
                 <td>
                   <input type="number" class="form-control itemQty" value="<?= $row['qty'] ?>" style="width:75px;">
                 </td>
-                <td><i class="fas fa-rupee-sign"></i>&nbsp;&nbsp;<?= number_format($row['total_price'],2); ?></td>
+                <td><i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;<?= number_format($row['total_price'],2); ?></td>
                 <td>
                   <a href="action.php?remove=<?= $row['id'] ?>" class="text-danger lead" onclick="return confirm('Are you sure want to remove this item?');"><i class="fas fa-trash-alt"></i></a>
                 </td>
@@ -109,7 +109,7 @@
                     Shopping</a>
                 </td>
                 <td colspan="2"><b>Grand Total</b></td>
-                <td><b><i class="fas fa-rupee-sign"></i>&nbsp;&nbsp;<?= number_format($grand_total,2); ?></b></td>
+                <td><b><i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;<?= number_format($grand_total,2); ?></b></td>
                 <td>
                   <a href="checkout.php" class="btn btn-dark <?= ($grand_total > 1) ? '' : 'disabled'; ?>"><i class="far fa-credit-card"></i>&nbsp;&nbsp;Checkout</a>
                 </td>

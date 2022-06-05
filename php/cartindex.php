@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="author" content="Sahil Kumar">
+  <meta name="author" content="Polland onderi">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Shopping Cart</title>
@@ -54,7 +54,7 @@
             <img src="<?= $row['product_image'] ?>" class="card-img-top" height="250">
             <div class="card-body p-1">
               <h4 class="card-title text-center text-info"><?= $row['product_name'] ?></h4>
-              <h5 class="card-text text-center text-danger"><i class="fas fa-rupee-sign"></i>&nbsp;&nbsp;<?= number_format($row['product_price'],2) ?>/-</h5>
+              <h5 class="card-text text-center text-dark"><i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;<?= number_format($row['product_price'],2) ?>/-</h5>
 
             </div>
             <div class="card-footer p-1">

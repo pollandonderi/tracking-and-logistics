@@ -14,7 +14,7 @@
 <body>
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="cartindex.php"><i class="fa fa-barcode"></i>&nbsp;logitrack</a>
+    <a class="navbar-brand" href="dashboard.php"><i class="fa fa-barcode"></i>&nbsp;logitrack</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>

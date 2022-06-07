@@ -62,6 +62,12 @@
     </a>
   </li>
   <li class="nav-item">
+    <a class="nav-link " href="searchconnect.php">
+    <i class="fa fa-search-plus me-2" style="font-size:24px;"></i>
+    <span> Search for a connection</span>
+    </a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link " href="customersupport.php">
     <i class="material-icons me-2" style="font-size:24px">phone_in_talk</i>
     <span>Customer Support</span>

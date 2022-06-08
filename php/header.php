@@ -127,24 +127,34 @@
       <div class="card ">
       <div class="card-title blue1 text-center link11">TO DO LIST</div>
        <div class="card-body blue1">
+       <div class="row m-2" >
+           <button type="button" class="btn btn-primary" href="todolist.php">write it down to remember<i class="fa fa-edit m-1" style="font-size:26px"></i></button>
+        </div>
          <a href="todolist.php"> <p class="text-center ">write it down to remember</p></a>
        </div>
       </div>
      </div>
     <div class="col-sm-4 col-lg-4">
       <div class="card">
-      <div class="card-title yellow1 text-center link22">BECOME A SELLER</div>
+      <div class="card-title yellow1 text-warning text-center link22">BECOME A SELLER</div>
        <div class="card-body yellow1">
-       <a href="#"> <p class="text-center"> Sell on our platform </p></a>
+       <div class="row m-2" >
+           <button type="button" class="btn btn-warning" href="#">sell on our platform<i class="fa fa-handshake-o m-1" style="font-size:26px"></i></button>
+        </div>
        </div>
       </div>
      </div>
     <div class="col-sm-4 col-lg-4 ">
       <div class="card">
-      <div class="card-title green1 text-center">VIEW TO DO LIST</div>
+      <div class="card-title green1 text-center text-success">VIEW TO DO LIST</div>
        <div class="card-body green1">
-       <a href="#"> <p class="text-center">view uncomplete tasks</p></a>
-       <a href="#"> <p class="text-center">view complete tasks</p></a>
+         <div class="row m-2" >
+           <button type="button" class="btn btn-success" href="#">view complete tasks<i class="fa fa-check-square-o m-1" style="font-size:26px"></i></button>
+        </div>
+        <div class="row m-2" >
+           <button type="button" class="btn btn-success" href="#">view uncompleted tasks<i class="fa fa-clock-o p-1" style="font-size:26px"></i></button>
+        </div>
+       
        </div>
       </div>
      </div>

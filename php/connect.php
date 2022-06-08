@@ -17,28 +17,79 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contactus.css">
 
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row ">
             <div class="col-lg-3"></div>
             <div class="col-lg-6 bg-dark">
-                <div class="card .connect">
+                <div class="card darkcard">
                     <div class="card-title text-center">
-                        <h5>Connect now to fill a single unit container</h5><hr>
+                        <h4>Hello ,connect now to fill a single unit container</h4>
+                        <hr>
                     </div>
                     <div class="card-body text-center">
-                        <form>
-                            <input name="" style="border: none; border-bottom:2px solid blue" class="m-2"><br>
-                            <label class="m-2">Name</label><br>
-                            <input type="date" name=""><br>
-                            <label class="m-2">Day of imports</label><br>
-                            <input type="email" name=""><br>
-                            <label class="m-2">Email</label><br>
+                        <div class="row">
+                            <form>
+                                <div class="row m-4">
+                                    <input name="Fullname" class="connect rounded-pill bg-light" required><br>
+                                    <label class=""> Full Name</label><br>
+                                </div>
 
-                        </form>
+                                <div class="row m-4">
+                                    <input type="email" name="connectemail" class="connect rounded-pill bg-light" required><br>
+                                    <label>Email</label><br>
+                                </div>
+                                <div class="row m-4">
+                                    <input type="text" name="weight" class="connect rounded-pill bg-light"><br>
+                                    <label>Tonnage of freightt</label><br>
+                                </div>
+                                <div class="row m-4">
+                                    <input type="text" name="space" class="connect rounded-pill bg-light"><br>
+                                    <label>Expected space coverage</label><br>
+                                </div>
+                                <div class="row m-4">
+                                    <textarea type="text" name="description" class="connect rounded-pill bg-light"></textarea><br>
+                                    <label>Any other important information</label><br>
+                                </div>
+                                <div class="row m-4">
+                                    <div class="col-4">
+
+                                    </div>
+                                    <div class="col-4">
+                                    <input type="date" name="" class="connet rounded-pill bg-light"><br>
+                                    <label> Preferred day of imports</label><br>
+
+                                    </div>
+                                    <div class="col-4">
+
+                                    </div>
+                                   
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+
+                                    </div>
+                                    <div class="col-4">
+                                        <button type="button" class="btn btn-success">Submit connection request</button>
+
+                                    </div>
+                                    <div class="col-4">
+
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

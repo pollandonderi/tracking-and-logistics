@@ -9,3 +9,16 @@
     width: 70%;
     background-color: transparent;
 }
+.connect{
+    border: none;
+    border-bottom:2px solid gray;
+
+}
+body{background: url(../images/index.jpg) center no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    height: 100vh;
+}
+.darkcard{
+    /* background-color: rgba(179, 170, 170, 0.5); */
+}

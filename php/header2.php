@@ -11,14 +11,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/header2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
     
 </head>
 <body>
     <div class="container-fluid">
         <div class="row text-center">
             <div class="col-12 bg-light">
-                <h5 ><a href="dashboard.php" class="text-center bg-dark header2"> Back to dashboard</a><h5>
+                
+                <button type="button" class="btn btn-secondary"><a href="dashboard.php" class="card-link text-light">go back to dashboard</a></button>
             </div>
         </div>
     </div>

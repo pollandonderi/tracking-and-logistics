@@ -154,6 +154,7 @@
         <div class="row m-2" >
            <button type="button" class="btn btn-success" href="#">view uncompleted tasks<i class="fa fa-clock-o p-1" style="font-size:26px"></i></button>
         </div>
+        
        
        </div>
       </div>
@@ -163,6 +164,7 @@
     
   </div>
   <div
+  
 
     </div>
     

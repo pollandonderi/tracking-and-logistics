@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
+    header("location:index.php");
+    exit();
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +31,7 @@
     <h6 class="card-subtitle mb-2 text-muted  text-center">Make connections with other customers on this platform</h6>
     <p class="card-text text-center">Making connections with new customers on this platform is a bold step. It will help you fill your cargo container faster but may delay the shipping dates. would you like to still continue?</p>
     <div class="row d-flex space-around">
-    <button type="button" class="btn btn-success"><a href="handle_searchconnect.php" class="card-link text-light">Continue</a></button>
+    <button type="button" class="btn btn-success"><a href="handlesearchconnect.php" class="card-link text-light">Continue</a></button>
     
     <button type="button" class="btn btn-secondary"><a href="dashboard.php" class="card-link text-light">go back to dashboard</a></button>
   </div>

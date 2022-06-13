@@ -36,14 +36,13 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                     </div>
                     <div class="card-body text-center">
                         <div class="row">
-                            <form action="handleconnect.php" method="post">
-                                <!-- Numeric Textfield with Floating Label -->
+                            <form action="handleconnect.php" method="post" enctype="multipart/form-data">
 
 
                                 <div class="row m-4">
                                 <label class=""> Full Name</label><br>
                                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" name="fullname" type="text" id="sample3">
+                                        <input class="mdl-textfield__input" name="fullname" type="text" id="sample3"required>
                                         <label class="mdl-textfield__label" for="sample3">Your Name...</label>
                                     </div>
                                     
@@ -52,7 +51,7 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                                 <div class="row m-4">
                                 <label>Email</label><br>
                                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" name="email" type="text" id="sample3">
+                                        <input class="mdl-textfield__input" name="email" type="text" id="sample3" required>
                                         <label class="mdl-textfield__label" for="sample3">Your Email...</label>
                                     </div>
                                    
@@ -60,7 +59,7 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                                 <div class="row m-4  d-flex justify-items-center">
                                 <label>Expected weight of freight</label><br>
                                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" name="weight" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+                                        <input class="mdl-textfield__input" name="weight" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4" required>
                                         <label class="mdl-textfield__label" for="sample4">Tonnage of freight</label>
                                         <span class="mdl-textfield__error">Input is not a number!</span>
                                         
@@ -70,7 +69,7 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                                 <div class="row m-4">
                                 <label>Expected space coverage</label><br>
                                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input class="mdl-textfield__input" name="space" type="text" id="sample3">
+                                        <input class="mdl-textfield__input" name="space" type="text" id="sample3" required>
                                         <label class="mdl-textfield__label" for="sample3">m*2 covered...</label>
                                     </div>
 
@@ -79,9 +78,14 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                                 <div class="row m-4">
                                 <label>Any other important information</label><br>
                                     <div class="mdl-textfield mdl-js-textfield">
-                                        <textarea class="mdl-textfield__input" name="description" type="text" rows="3" id="sample5"></textarea>
+                                        <textarea class="mdl-textfield__input" name="description" type="text" rows="3" id="sample5" required></textarea>
                                         <label class="mdl-textfield__label" for="sample5">write here...</label>
                                     </div>
+                                   
+                                </div>
+                                <div class="row m-4">
+                                <label> Your Picture</label><br>
+                                <input type="file" name="picture">
                                    
                                 </div>
                                 <div class="row m-4">
@@ -90,7 +94,7 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
                                     </div>
                                     <div class="col-4">
                                     <label> Preferred day of imports</label><br>
-                                        <input type="date" name="" class="connet rounded-pill bg-light"><br>
+                                        <input type="date" name=" date" class="connet rounded-pill bg-light"required><br>
                                         
 
                                     </div>
@@ -104,7 +108,7 @@ if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
 
                                     </div>
                                     <div class="col-4">
-                                        <button type="submit" class="btn btn-success" name="connectclients">Submit connection request</button>
+                                        <button type="submit" value="submit" class="btn btn-success" name="connectclients">Submit connection request</button>
 
                                     </div>
                                     <div class="col-4">

@@ -48,3 +48,7 @@ font-family: 'Poppins', sans-serif;
 .link22{ 
  color:var(--secondary-color); 
  }
+ .reminder{
+    background: rgb(6,38,240);
+background: linear-gradient(90deg, rgba(6,38,240,0.9332107843137255) 5%, rgba(255,239,0,1) 58%);
+ }

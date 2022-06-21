@@ -18,3 +18,7 @@
     padding: 25px ;
     
 }
+body{
+    background-image: url(../images/index2.jpg);
+    background-size: cover;
+}

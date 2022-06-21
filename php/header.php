@@ -135,7 +135,7 @@
               <div class="card-title blue1 text-center link11">TO DO LIST</div>
               <div class="card-body blue1">
                 <div class="row m-2">
-                  <button type="button" class="btn btn-primary" href="todolist.php">write it down to remember<i class="fa fa-edit m-1" style="font-size:26px"></i></button>
+                <a href="todolist.php" class="btn btn-primary ">write it down to remember<i class="fa fa-edit m-1" style="font-size:26px"></i></a>
                 </div>
 
               </div>
@@ -179,7 +179,7 @@
           
           <div class="card-body text-center reminder bg-light" style="">
     <h5 class="card-title text-dark ">Set a reminder</h5><hr>
-    <a href="#" class="btn btn-primary ">set reminder</a>
+    <a href="reminder.php" class="btn btn-primary ">set reminder</a>
   </div>
 </div>
           </div>

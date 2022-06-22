@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+if (!isset($_SESSION["loggedin"]) or $_SESSION["loggedin"] !== true) {
+    header("location:index.php");
+    exit();
+}
+include "header2.php";
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +26,7 @@
     <div class="row">
         <div class="col-sm-4 col-md-3 col-lg-2"></div>
         <div class="col-sm-8 col-md-6 col-lg-8 ">
-            <form action=" " method="post">
+            <form action=" " method="post" class="d-flex justify-content-center">
                 <div class="row">
                     <!-- Textfield with Floating Label -->
 

@@ -369,3 +369,34 @@
 
 </html>
    -->
+   <div class="row">
+                    <h3></h3>
+                </div>
+                <form action=" " method="post">
+                    <div class="row d-flex justify-content-center"">
+                    <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="sample3" name="product_name">
+                        <label class="mdl-textfield__label" for="sample3"> Name of the product you are selling...</label>
+
+                    </div>
+            </div>
+
+            
+        </div>
+        <div class="row d-flex justify-content-center"">
+                   <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3" name="product_image">
+            <label class="mdl-textfield__label" for="sample3"></label>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center"">
+                   <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3" name="product_image" name="product_code">
+        <label class="mdl-textfield__label" for="sample3"></label>
+    </div>
+    </div>
+    </div>
+
+
+    </form>
+    </div>

@@ -6,7 +6,7 @@ if(isset($_POST["todolist"])){
     $what = $_POST["what"];
     $who = $_POST["who"];
     $time = $_POST["time"];
-    $date = $_POST["date"];
+    $date = date('Y-m-d', strtotime($_POST['date']));
     $additional = $_POST["additional"];
 
 
@@ -16,7 +16,7 @@ if(isset($_POST["todolist"])){
 
     if($result){
         echo "your to do list is uploaded succesfully";
-        header("location:")
+        header("location:completetask.php");
     }
     else{
         echo "error uploading your to do list $sql".mysqli_error($link);

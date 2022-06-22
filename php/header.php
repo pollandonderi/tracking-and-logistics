@@ -146,7 +146,7 @@
               <div class="card-title yellow1 text-warning text-center link22">BECOME A SELLER</div>
               <div class="card-body yellow1">
                 <div class="row m-2">
-                  <button type="button" class="btn btn-warning" href="#">sell on our platform<i class="fa fa-handshake-o m-1" style="font-size:26px"></i></button>
+                  <a type="button" class="btn btn-warning" href="sell.php">Sell on our platform<i class="fa fa-handshake-o m-1" style="font-size:26px"></i></a>
                 </div>
               </div>
             </div>
@@ -156,10 +156,10 @@
               <div class="card-title green1 text-center text-success">VIEW TO DO LIST</div>
               <div class="card-body green1">
                 <div class="row m-2">
-                  <button type="button" class="btn btn-success" href="#">view complete tasks<i class="fa fa-check-square-o m-1" style="font-size:26px"></i></button>
+                  <a  class="btn btn-success" href="handlecompletetask.php">Act on tasks<i class="fa fa-check-square-o m-1" style="font-size:26px"></i> | <i class="fa fa-clock-o p-1" style="font-size:26px"></i></a>
                 </div>
                 <div class="row m-2">
-                  <button type="button" class="btn btn-success" href="#">view uncompleted tasks<i class="fa fa-clock-o p-1" style="font-size:26px"></i></button>
+                  
                 </div>
 
 

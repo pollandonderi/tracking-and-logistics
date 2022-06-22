@@ -29,7 +29,7 @@ include "header2.php";
         <div class="row">
             <div class="col-sm-4 col-md-3 col-lg-2"></div>
             <div class="col-sm-8 col-md-6 col-lg-8 bg-light h-100 m-4">
-                <form action="handlesell2.php" method="post" enctype="">
+                <form action="handlesell2.php" method="post" enctype="multipart/form-data">
 
                     <div class="row d-flex justify-content-center">
                         <span class="text-center">Product Name</span>
@@ -49,7 +49,7 @@ include "header2.php";
                     <div class="row d-flex justify-content-center">
                     <span class="text-center">Product Quantity</span>
                         <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="sample3" name="product_qty" required>
+                            <input class="mdl-textfield__input" type="int" id="sample3" name="product_qty" required>
                             <label class="mdl-textfield__label" for="sample3">Enter the product quantity...</label>
                         </div>
                     </div>

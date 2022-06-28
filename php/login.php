@@ -57,8 +57,10 @@ include "handle_glogin.php";
               <button type="button" class="btn btn-link btn-floating mx-1">
                 <i class="fa fa-github bg-white">github</i>
               </button>
+              <div class="row">
               <a href="register.php" class="text-light">Not yet registered? Register now</a><br>
               <a href="terms of service.php" class="text-light">terms and conditions apply</a>
+              </div>
 </form>
 
 

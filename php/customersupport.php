@@ -61,7 +61,7 @@ include "header2.php";
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row bg-light">
             <h5 class="text-center">on using our new feature- Search for a connection</h5>
             <div class="col-lg-6 text-center">
                 <h3>on searching for a connection</h3>

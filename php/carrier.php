@@ -29,20 +29,24 @@ include "header2.php";
         <div class="row">
             <div class="col-sm-4 col-md-3 col-lg-2"></div>
             <div class="col-sm-8 col-md-6 col-lg-8 bg-light h-100 m-4">
-                <form action="handlesell2.php" method="post" enctype="multipart/form-data">
+                <div class="row text-center">
+                <h4> Become a carrier today and join the logistics business</h4>
+                </div>
+                
+                <form action="handlecarrier.php" method="post">
 
                     <div class="row d-flex justify-content-center">
-                        <span class="text-center">Product Name</span>
+                        <span class="text-center">Your Name</span>
                         <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="sample3" name="product_name" required>
-                            <label class="mdl-textfield__label" for="sample3">Name of the product you are selling...</label>
+                            <input class="mdl-textfield__input" type="text" id="sample3" name="carrier_name" required>
+                            <label class="mdl-textfield__label" for="sample3">Enter the name of you go by...</label>
                         </div>
                     </div>
                     <div class="row d-flex justify-content-center">
-                    <span class="text-center">Product Price</span>
+                    <span class="text-center">Product choice </span>
                         <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="sample3" name="product_price" required>
-                            <label class="mdl-textfield__label" for="sample3">Ener your product price in dollars...</label>
+                            <input class="mdl-textfield__input" type="text" id="sample3" name="product-choice" required>
+                            <label class="mdl-textfield__label" for="sample3">Ener your product you are able to move...</label>
                         </div>
                     </div>
 
@@ -54,23 +58,30 @@ include "header2.php";
                         </div>
                     </div>
                     <div class="row d-flex justify-content-center">
-                    <span class="text-center">Product Image</span>
+                    <span class="text-center">Your Phone number</span>
                         <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="file" id="sample3" name="product_image" required>
-                            <label class="mdl-textfield__label" for="sample3"></label>
+                            <input class="mdl-textfield__input" type="int" id="sample3" name="phone-number" required>
+                            <label class="mdl-textfield__label" for="sample3">Enter a valid phone number...</label>
                         </div>
                     </div>
                     <div class="row d-flex justify-content-center">
-                    <span class="text-center">Unique Product Code</span>
+                    <span class="text-center">Your Place of residence</span>
                         <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="sample3" name="product_code" required>
-                            <label class="mdl-textfield__label" for="sample3">Enter a valid unique product code.......</label>
+                            <input class="mdl-textfield__input" type="text" id="sample3" name="residence" required>
+                            <label class="mdl-textfield__label" for="sample3">Enter a valid place of residence...</label>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                    <span class="text-center">Your Preferred routes</span>
+                        <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="sample3" name="route" required>
+                            <label class="mdl-textfield__label" for="sample3">Enter a valid travel route..e.g kisii-isibania.</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-4"></div>
                         <div class="col-4">
-                            <div class="row"><button class="btn btn-success" type="submit" value="submit" name="sellnow">sell now!</button></div>
+                            <div class="row"><button class="btn btn-success" type="submit" value="submit" name="carrier">Apply now!</button></div>
                         </div>
                         <div class="col-4"></div>
                     </div>

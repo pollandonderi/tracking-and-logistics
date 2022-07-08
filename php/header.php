@@ -44,7 +44,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
               <i class="fa fa-line-chart me-2" style="font-size:24px;"></i>
-              <span>shipping Status</span>
+              <span>choose a carrier </span>
             </a>
             <hr>
           </li>

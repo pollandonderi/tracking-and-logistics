@@ -37,11 +37,11 @@
 
 <ul class="nav-links">
     <li class="active"><a href="index.php">Home</a></li>
-    <li><a href="#">Who Are We</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="login.php">login</a></li>
+    <li><a href="index.php">Services</a></li>
     <li><a href="contactus.php">Contact Us</a></li>
     <li><a href="#">Membership</a></li>
-    <li><a href="#">customer support</a></li>
+    <li><a href="customersupport.php">customer support</a></li>
 </ul>
 <div class="polland">
     <div class="line1"></div>

@@ -51,7 +51,7 @@
           <li class="nav-item">
             <a class="nav-link " href="map.php">
               <i class="fa fa-map-marker me-2" style="font-size:24px;"></i>
-              <span>Tracking</span>
+              <span>Tracking your carrier</span>
             </a>
           </li>
           <li class="nav-item">
@@ -137,29 +137,37 @@
                 <div class="row m-2">
                 <a href="todolist.php" class="btn btn-primary ">write it down to remember<i class="fa fa-edit m-1" style="font-size:26px"></i></a>
                 </div>
+                <div class="row m-2">
+                  <a  class="btn btn-primary" href="handlecompletetask.php">Act on tasks<i class="fa fa-check-square-o m-1" style="font-size:26px"></i> | <i class="fa fa-clock-o p-1" style="font-size:26px"></i></a>
+                </div>
 
               </div>
             </div>
           </div>
           <div class="col-sm-4 col-lg-4 ">
             <div class="card h-100">
-              <div class="card-title yellow1 text-warning text-center link22">BECOME A SELLER</div>
+              <div class="card-title yellow1 text-warning text-center link22">APPLY TO:</div>
               <div class="card-body yellow1">
                 <div class="row m-2">
                   <a type="button" class="btn btn-warning" href="sell.php">Sell on our platform<i class="fa fa-handshake-o m-1" style="font-size:26px"></i></a>
+                </div>
+                <div class="row m-2">
+                <a type="button" class="btn btn-warning" href="carrier.php">Become a carrier<i class="fa fa-car m-1" style="font-size:26px"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-sm-4 col-lg-4">
             <div class="card h-100">
-              <div class="card-title green1 text-center text-success">VIEW TO DO LIST</div>
+              <div class="card-title green1 text-center text-success">Get updates</div>
               <div class="card-body green1">
+               
+                
                 <div class="row m-2">
-                  <a  class="btn btn-success" href="handlecompletetask.php">Act on tasks<i class="fa fa-check-square-o m-1" style="font-size:26px"></i> | <i class="fa fa-clock-o p-1" style="font-size:26px"></i></a>
+                  <a  class="btn btn-success" href="handlecompletetask.php">weather updates<i class="fa fa-check-globe-o m-1" style="font-size:26px"></i> | <i class="fa fa-clock-o p-1" style="font-size:26px"></i></a>
                 </div>
                 <div class="row m-2">
-                  
+                  <a  class="btn btn-success" href="handlecompletetask.php">trade restrictions<i class="fa fa-exclamation-triangle m-1" style="font-size:26px"></i> | <i class="fa fa-globe p-1" style="font-size:26px"></i></a>
                 </div>
 
 
@@ -177,7 +185,7 @@
           <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_oikmoh7v.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
           </div>
           
-          <div class="card-body text-center reminder bg-light" style="">
+          <div class="card-body text-center reminder bg-light">
     <h5 class="card-title text-dark ">Set a reminder</h5><hr>
     <a href="reminder.php" class="btn btn-primary ">set reminder</a>
   </div>

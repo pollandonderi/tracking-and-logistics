@@ -99,14 +99,15 @@
 	  $stmt2 = $conn->prepare('DELETE FROM cart');
 	  $stmt2->execute();
 	  $data .= '<div class="text-center">
-								<h1 class="display-4 mt-2 text-danger">Thank You!</h1>
+								<h1 class="display-4 mt-2 text-warning">Thank You!</h1>
 								<h2 class="text-success">Your Order Placed Successfully!</h2>
-								<h4 class="bg-danger text-light rounded p-2">Items Purchased : ' . $products . '</h4>
+								<h4 class="bg-warning text-light rounded p-2">Items Purchased : ' . $products . '</h4>
 								<h4>Your Name : ' . $name . '</h4>
 								<h4>Your E-mail : ' . $email . '</h4>
 								<h4>Your Phone : ' . $phone . '</h4>
 								<h4>Total Amount Paid : ' . number_format($grand_total,2) . '</h4>
 								<h4>Payment Mode : ' . $pmode . '</h4>
+								<h5> Your vendor will get back to you to arrange a pick up by a carrier to your destination upon handover then the payment should be made.</h4>
 						  </div>';
 	  echo $data;
 	}

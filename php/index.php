@@ -39,6 +39,7 @@ include "nav.php";
 
                 <div class="image--overlay--title">
                     <h2>Ship from anywhere,for anything securely and conveniently.</h2>
+                    <h4> with our very convenient dashboard to enable you do anything from one place </h4>
                 </div>
 
                 <div class="image--overlay--description m-3">
@@ -126,7 +127,7 @@ include "nav.php";
         <section class="container ">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
+                    <div class="card h-100">
                         <img src="../images/shop.svg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Shipping</h5>
@@ -136,7 +137,7 @@ include "nav.php";
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
+                    <div class="card h-100">
                         <img src="../images/track.svg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Tracking</h5>
@@ -146,7 +147,7 @@ include "nav.php";
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
+                    <div class="card h-100">
                         <img src="../images/support.svg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Customer support</h5>
@@ -156,7 +157,7 @@ include "nav.php";
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 ">
-                    <div class="card">
+                    <div class="card h-100">
                         <img src="../images/connect2.svg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Connection</h5>
